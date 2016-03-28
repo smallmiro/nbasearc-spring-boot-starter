@@ -37,6 +37,7 @@
 
 ## 변경된 사용 방법
 * maven
+ * repository 추가
 ```xml
 <repositories>
     <repository>
@@ -48,6 +49,9 @@
         <url>https://github.com/smallmiro/smallmiro-maven-repo/raw/master/snapshots</url>
     </repository>
 </repositories>
+```
+ * dependency 추가
+```
 <dependencies>
     <dependency>
         <groupId>com.smallmiro</groupId>
@@ -73,7 +77,7 @@ nbase.arc.pool.maxIdle=2
 nbase.arc.pool.minIdle=2
 nbase.arc.pool.maxWait=2
 ```
-* 사용되어 진 소스
+* 예제 소스
 ```java
 @Autowired
 private StringRedisClusterTemplate redisTemplate;
@@ -90,7 +94,7 @@ public Map<String, String> get() {
 
 # 예제 프로젝트
 * nbasearc-spring-boot-sample
-* IntegrationTest 작성
+* IntegrationTest 작성 예제
 ```java 
 @Test
 public void getHello() throws Exception {
