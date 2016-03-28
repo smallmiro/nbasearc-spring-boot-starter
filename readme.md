@@ -1,3 +1,10 @@
+# Dooray-bot-boot-starter library
+
+[![Apache 2](http://img.shields.io/badge/license-Apache%202-red.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+
 # overview
 * nbase-arc를 spring-boot에서 사용하기 편하도록 아래 내용을 추가했습니다.
  * spring-boot-autoconfigure
