@@ -21,18 +21,18 @@
 
 * XML 설정
 ```xml
-    <bean id="gatewayConfig" class="com.navercorp.redis.cluster.gateway.GatewayConfig">
-      <property name="zkAddress" value="zookeeper-address"/>
-      <property name="clusterName" value="cluster-name"/>
-    </bean>
+<bean id="gatewayConfig" class="com.navercorp.redis.cluster.gateway.GatewayConfig">
+  <property name="zkAddress" value="zookeeper-address"/>
+  <property name="clusterName" value="cluster-name"/>
+</bean>
 
-    <bean id="redisClusterConnectionFactory" class="com.navercorp.redis.cluster.spring.RedisClusterConnectionFactory" destroy-method="destroy">
-        <property name="config" ref="gatewayConfig"/>
-    </bean>
+<bean id="redisClusterConnectionFactory" class="com.navercorp.redis.cluster.spring.RedisClusterConnectionFactory" destroy-method="destroy">
+    <property name="config" ref="gatewayConfig"/>
+</bean>
 
-    <bean id="redisTemplate" class="com.navercorp.redis.cluster.spring.StringRedisClusterTemplate">
-        <property name="connectionFactory" ref="redisClusterConnectionFactory"/>
-    </bean>
+<bean id="redisTemplate" class="com.navercorp.redis.cluster.spring.StringRedisClusterTemplate">
+    <property name="connectionFactory" ref="redisClusterConnectionFactory"/>
+</bean>
 ```
 
 ## 변경된 사용 방법
@@ -51,7 +51,7 @@
 </repositories>
 ```
  * dependency 추가
-```
+```xml
 <dependencies>
     <dependency>
         <groupId>com.smallmiro</groupId>
