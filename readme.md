@@ -1,6 +1,7 @@
 # nBaseArc-boot-starter library
 
 [ ![Codeship Status for smallmiro/nbasearc-spring-boot-starter](https://codeship.com/projects/a8084360-d6d4-0133-81e1-2e9d1cff2918/status?branch=master)](https://codeship.com/projects/142803)
+[![Coverage Status](https://coveralls.io/repos/github/smallmiro/nbasearc-spring-boot-starter/badge.svg?branch=master)](https://coveralls.io/github/smallmiro/nbasearc-spring-boot-starter?branch=master)
 [![Apache 2](http://img.shields.io/badge/license-Apache%202-red.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
 
