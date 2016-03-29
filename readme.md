@@ -1,4 +1,4 @@
-# nBaseArc-boot-starter library
+# nBase Arc spring-boot-starter library
 
 [![Build Status](https://travis-ci.org/smallmiro/nbasearc-spring-boot-starter.svg?branch=master)](https://travis-ci.org/smallmiro/nbasearc-spring-boot-starter)
 [![Coverage Status](https://coveralls.io/repos/github/smallmiro/nbasearc-spring-boot-starter/badge.svg?branch=master)](https://coveralls.io/github/smallmiro/nbasearc-spring-boot-starter?branch=master)
