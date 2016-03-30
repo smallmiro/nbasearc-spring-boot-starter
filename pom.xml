@@ -13,7 +13,7 @@
         <module>nbasearc-spring-boot-starter</module>
         <module>nbasearc-spring-boot-sample</module>
     </modules>
-    <name>nbase-arc java client</name>
+    <name>nbasearc-spring-boot</name>
     <description>nbase-arc spring-boot</description>
     <url>https://github.com/naver/nbase-arc</url>
 
