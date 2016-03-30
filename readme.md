@@ -61,7 +61,7 @@
 ```xml
 <dependencies>
     <dependency>
-        <groupId>com.smallmiro</groupId>
+        <groupId>com.gihub.smallmiro</groupId>
         <artifactId>nbasearc-spring-boot-starter</artifactId>
         <version>1.0-SNAPSHOT</version>
     </dependency>
