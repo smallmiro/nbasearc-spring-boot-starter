@@ -44,26 +44,13 @@
 
 ## 변경된 사용 방법
 * maven
- * repository 추가
-```xml
-<repositories>
-    <repository>
-        <id>smallmiro-maven-releases</id>
-        <url>https://github.com/smallmiro/smallmiro-maven-repo/raw/master/releases</url>
-    </repository>
-    <repository>
-        <id>smallmiro-maven-snapshot</id>
-        <url>https://github.com/smallmiro/smallmiro-maven-repo/raw/master/snapshots</url>
-    </repository>
-</repositories>
-```
  * dependency 추가
 ```xml
 <dependencies>
     <dependency>
-        <groupId>com.gihub.smallmiro</groupId>
-        <artifactId>nbasearc-spring-boot-starter</artifactId>
-        <version>1.0-SNAPSHOT</version>
+      <groupId>com.gihub.smallmiro</groupId>
+      <artifactId>nbasearc-spring-boot-starter</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
 </dependencies>
 ```
@@ -102,7 +89,7 @@ public Map<String, String> get() {
 # 예제 프로젝트
 * nbasearc-spring-boot-sample
 * IntegrationTest 작성 예제
-```java 
+```java
 @Test
 public void getHello() throws Exception {
     String testValue = "SAMPLE";
