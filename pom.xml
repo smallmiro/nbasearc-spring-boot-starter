@@ -45,11 +45,11 @@
     <distributionManagement>
         <repository>
             <id>smallmiro-maven-releases</id>
-            <url>https://github.com/smallmiro/smallmiro-maven-repo/raw/master/releases</url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
         <snapshotRepository>
             <id>smallmiro-maven-snapshot</id>
-            <url>https://github.com/smallmiro/smallmiro-maven-repo/raw/master/snapshots</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
