@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/smallmiro/nbasearc-spring-boot-starter.svg?branch=master)](https://travis-ci.org/smallmiro/nbasearc-spring-boot-starter)
 [![Coverage Status](https://coveralls.io/repos/github/smallmiro/nbasearc-spring-boot-starter/badge.svg?branch=master)](https://coveralls.io/github/smallmiro/nbasearc-spring-boot-starter?branch=master)
 [![Apache 2](http://img.shields.io/badge/license-Apache%202-red.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Maven Central](https://img.shields.io/badge/Maven%20Central-v1.0-blue.svg)](http://search.maven.org/#artifactdetails%7Ccom.github.smallmiro%7Cnbasearc-spring-boot-starter%7C1.0%7Cjar)
 
 
 # overview
