@@ -51,6 +51,7 @@ public class NBaseArcSpringbootProperties {
 
         private boolean lifo = RedisClusterPoolConfig.DEFAULT_LIFO;
         private boolean fairness = RedisClusterPoolConfig.DEFAULT_FAIRNESS;
+        private int initialSize = RedisClusterPoolConfig.DEFAULT_INITIAL_SIZE;
         private long maxWaitMillis = RedisClusterPoolConfig.DEFAULT_MAX_WAIT_MILLIS;
         private long minEvictableIdleTimeMillis = RedisClusterPoolConfig.DEFAULT_MIN_EVICTABLE_IDLE_TIME_MILLIS;
         private long softMinEvictableIdleTimeMillis = RedisClusterPoolConfig.DEFAULT_SOFT_MIN_EVICTABLE_IDLE_TIME_MILLIS;
@@ -192,6 +193,14 @@ public class NBaseArcSpringbootProperties {
 
         public void setJmxNameBase(String jmxNameBase) {
             this.jmxNameBase = jmxNameBase;
+        }
+
+        public int getInitialSize() {
+            return initialSize;
+        }
+
+        public void setInitialSize(int initialSize) {
+            this.initialSize = initialSize;
         }
     }
     public class Gateway {

@@ -54,6 +54,7 @@ public class NBaseArcAutoConfiguration {
 
         poolConfig.setLifo(properties.getPool().isLifo());
         poolConfig.setFairness(properties.getPool().isFairness());
+        poolConfig.setInitialSize(properties.getPool().getInitialSize());
         poolConfig.setMaxWaitMillis(properties.getPool().getMaxWaitMillis());
         poolConfig.setMinEvictableIdleTimeMillis(properties.getPool().getMinEvictableIdleTimeMillis());
         poolConfig.setSoftMinEvictableIdleTimeMillis(properties.getPool().getSoftMinEvictableIdleTimeMillis());
