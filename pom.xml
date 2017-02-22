@@ -7,11 +7,10 @@
     <groupId>com.github.smallmiro</groupId>
     <artifactId>nbase-arc-spring-boot</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <modules>
         <module>nbasearc-spring-boot-autoconfigure</module>
         <module>nbasearc-spring-boot-starter</module>
-        <module>nbasearc-spring-boot-sample</module>
     </modules>
     <name>nbasearc-spring-boot</name>
     <description>nbase-arc spring-boot</description>
@@ -148,6 +147,17 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.3</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
             </plugin>
         </plugins>
     </build>
