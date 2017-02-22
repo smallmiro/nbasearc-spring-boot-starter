@@ -36,7 +36,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Junhwan Oh
  */
 @Configuration
-@ConditionalOnProperty("nbase.arc.gateway.zkAddress")
+@ConditionalOnProperty({"nbase.arc.gateway.zkAddress", "nbase.arc.gateway.clusterName"})
 @ConditionalOnClass({GatewayConfig.class, RedisClusterConnectionFactory.class, StringRedisClusterTemplate.class, RedisClusterPoolConfig.class})
 @EnableConfigurationProperties(NBaseArcSpringbootProperties.class)
 public class NBaseArcAutoConfiguration {
