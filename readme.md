@@ -49,9 +49,9 @@
 ```xml
 <dependencies>
     <dependency>
-      <groupId>com.github.smallmiro</groupId>
-      <artifactId>nbasearc-spring-boot-starter</artifactId>
-      <version>1.0-SNAPSHOT</version>
+        <groupId>com.github.smallmiro</groupId>
+        <artifactId>nbasearc-spring-boot-starter</artifactId>
+        <version>1.0.1</version>
     </dependency>
 </dependencies>
 ```
